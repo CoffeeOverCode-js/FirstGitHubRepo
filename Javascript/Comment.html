@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comment</title>
+    <link rel="stylesheet" href="Comment.css">
+    <script type="text/javascript" src="comment.js" src="Like Function.js"></script>
+</head>
+<body onload="onload()">
+    <p><a href="../MyWebsite.html">⇐ Previous Page</a></p>
+    <h1>Form</h1>
+	<form>
+		<label for="name">Name:</label>
+		<input type="text" id="name" name="name" required>
+
+        <br><br>
+
+		<label for="email">Email:</label>
+		<input type="email" id="email" name="email" required>
+
+        <br><br>
+
+		<label for="comment">Comment:</label>
+        <br>
+		<textarea id="comment" name="comment" required></textarea>
+
+        <br><br>
+
+		<input type="submit" value="Submit" onclick="addComment()">
+        <br>
+        <select name="dropdown" id="dropdown" onchange="changeComment(this.value)">
+            <option value="">Select your comment</option>
+        </select>
+	</form>
+</body>
+</html>

@@ -1,0 +1,116 @@
+body {
+  background-image: url(Images/Awards_Background2.jpg);
+  background-size: cover;
+}
+
+#container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-areas: "header header header header" "col1 col2 col3 col4" "col1 col2 col3 col4" "col1 col2 col3 col4";
+}
+
+h1 {
+  color: white;
+  font-family: fantasy;
+}
+
+p {
+  color: white;
+  font-weight: bold;
+}
+
+table, table tr {
+  border: 1px solid white;
+  color: white;
+}
+
+table th {
+  border-right: 1px solid white;
+  width: 50%;
+}
+
+table td {
+  border-right: 1px solid white;
+}
+
+.quote {
+  font-family: cursive;
+}
+
+header {
+  grid-area: header;
+  border-bottom: 2px solid white;
+}
+
+col1,
+col2,
+col3,
+col4 {
+  padding-top: 10px;
+  border-right: 2px solid white;
+  height: 100vh;
+}
+
+col1 {
+  grid-area: col1;
+}
+
+col2 {
+  grid-area: col2;
+}
+
+col3 {
+  grid-area: col3;
+}
+
+col4 {
+  grid-area: col4;
+}
+
+img {
+  height: 500px;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+.U13Award {
+  width: 360px;
+}
+
+a:link {
+  color: turquoise;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: turquoise;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: gold;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: black;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a {
+  padding-left: 12px;
+}
+
+form {
+  color: gold;
+  border: 2px solid gold;
+}
+
+.SaveforLater {
+  margin-left: 12px;
+  background-color: gold;
+}/*# sourceMappingURL=Awards.css.map */

@@ -1,0 +1,65 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-image: url(Images/AboutMebackground.jpg);
+    background-size: cover;
+}
+
+#container {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    border-top: 1px solid white;
+    height: 100vh;
+    margin-top: 10px;
+}
+
+h1 {
+    padding: 10px;
+    color: white;
+    font-family: fantasy;
+}
+
+.textblock {
+    border-right: 1px solid white;
+    padding: 20px;
+    color: white;
+}
+.imageblock {
+    padding: 20px;
+    color: white;
+}
+
+img {
+    border: 6px solid white;
+}
+
+h5 {
+    text-decoration: underline red;
+}
+
+a:link {
+    color: steelblue;
+    background-color: transparent;
+    text-decoration: none;
+
+}
+
+a:visited {
+    color: steelblue;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: lightseagreen;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a:active {
+    color: black;
+    background-color: transparent;
+    text-decoration: underline;
+}
