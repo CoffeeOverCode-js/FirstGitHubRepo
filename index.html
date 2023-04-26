@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website </title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <link rel="stylesheet" href="Javascript/Like Function.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
+        crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script type="text/javascript" src="Javascript/Like Function.js"></script>
+    <script type="text/javascript" src="Javascript/Script.js"></script>
+    <link rel="stylesheet" href="MyWebsite.css">
+
+    <!-- <script>
+        addEventListener("DOMContentLoaded", function () {
+            let dropdown = document.getElementById("dropdown")
+            dropdown.addEventListener("change", (event) => {
+                let selectedOption = event.target.value;
+                if (selectedOption !== "") {
+                    window.location.href = selectedOption
+                }
+            })
+        })
+    </script> -->
+</head>
+
+<body onload="onload()">
+    <!-- <body> -->
+    <!--creates a grid to store the heading and contact link-->
+    <div class="container-md-border">
+        <div class="row">
+            <div class="col-5">
+                <p class="contact">
+                    <a href="mailto:ryanfredericksuni@gmail.com">Contact Me</a>
+                </p>
+            </div>
+            <div class="col-5">
+                <h1>Welcome To My Website</h1>
+            </div>
+            <p><a href="Javascript/Comment.html">Leave a Comment</a></p>
+        </div>
+    </div>
+    <div id="saves-link">
+        <p><a href="Javascript/saves.html">See Your Saves</a></p>
+    </div>
+    <!--creates a grid layout-->
+    <div id="container">
+        <aside>
+            <h2>Firearms</h2>
+            <br>
+            <div id="dropdown-container">
+                <select name="firearms" id="dropdown">
+                    <option value="">Select your Firearm</option>
+                    <option value="https://www.czub.cz/en/firearms-and-products-product/cz-shadow-2-sa">CZ Shadow 2 9mm
+                        Pistol</option>
+                    <option value="https://www.basspro.com/shop/en/101271221">Marlin .22LR</option>
+                    <option
+                        value="https://www.thetruthaboutguns.com/gun-review-ruger-precision-rifle-in-6-5-creedmoor/">
+                        Ruger Precision 6.5 Creedmor</option>
+                    <option
+                        value="https://www.iammo.com/guns/rifles/brand/dpms-panther-arms/caliber/.223-remington/5.56-nato/mode/list/show/96">
+                        DPS 22</option>
+                    <option value="https://www.czub.cz/">CZ 527 Model 223</option>
+                    <option value="https://stoegerindustries.com/shotguns/12-gauge">12g Stoeger</option>
+                    <option value="https://www.gunsa.co.za/maverick-12-gauge-m88-vr.html">12g Maverik</option>
+                    <option value="https://www.gunsa.co.za/s-w-m-p-15-22-22lr.html">Smith and Wesson .22LR</option>
+                    <option
+                        value="https://skietwinkel.co.za/pi1851/ci82/firearms/firearms/second-hand-firearms/.30-06-spr-marlin.html">
+                        Marlin 3006</option>
+                </select>
+            </div>
+
+            <br>
+            <p>These firearms were used throughout my sport-shooting career, and these specific weapons helped shape me
+                into the strong competitor I am today. My goal is to one day make it to the international competitions
+                and represent South Africa. With enough practice and hard work, I'm sure that eventually, my dream will
+                come true
+            </p>
+            <br>
+            <!--creates a radio button-->
+            <div class="radioborder">
+                <h3>Do you enjoy your Hobbies?</h3>
+                <br>
+                <label for="myRadioId" class="radio">
+                    <input type="radio" name="myRadioField" id="myRadioId" class="radio__input">
+                    <div class="radio__radio"></div>
+                    Yes
+                </label>
+
+                <label for="myRadioIdNo" class="radio">
+                    <input type="radio" name="myRadioField" id="myRadioIdNo" class="radio__input" value="no">
+                    <div class="radio__radio"></div>
+                    No
+                </label>
+
+                <label for="myRadioIdMaybe" class="radio">
+                    <input type="radio" name="myRadioField" id="myRadioIdMaybe" class="radio__input" value="maybe">
+                    <div class="radio__radio"></div>
+                    I do not have any Hobbies.
+                </label>
+            </div>
+
+        </aside>
+
+        <main id="second_container">
+            <div class="leftside">
+                <div class="card" style="width: 300px;">
+                    <a href="About Me.html"><img class="card-img-top" src="Images/AboutMe.png"
+                            alt="AboutME Image"></img></a>
+
+                    <div class="card body">
+                        <h2 class="card-title">My Journey</h2>
+                        <span class="card-subtitle">Ryan Fredericks</span>
+                        <br>
+                        <div class="card-text">
+                            In this section I will be showcasing who I am and how I started my career as a competitive
+                            Sports Shooter. I will be explaining all the different awards that I got and how I got them.
+                            <!-- This is where I convey My passion for sports shooting, when I started and how I got to where
+                            i am now. -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="rightside">
+                <div class="card" style="width: 300px;">
+                    <a href="Awards.html"><img class="card-img-top" src="Images/awards.jpg"
+                            alt="AboutME Image"></img></a>
+
+                    <div class="card body">
+                        <h2 class="card-title">My Achievements</h2>
+                        <span class="card-subtitle">Ryan Fredericks</span>
+                        <br>
+                        <div class="card-text">
+                            In this section I will be showcasing 3 of my awards that I am most proud of and have put in
+                            many hours of hardwork and practice. Aswell as 3 of my Certificates that I gained throughout
+                            the years.
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </main>
+
+    </div>
+
+    <script>
+        $(document).ready(function () {
+            $('#dropdown').change(function () {
+                var selectedOption = $(this).val();
+                if (selectedOption != '') {
+                    window.location.href = selectedOption;
+                }
+            });
+        });
+
+    </script>
+</body>
+
+</html>
